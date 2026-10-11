@@ -1,42 +1,50 @@
 🏨 Otel Rezervasyon Sistemi
+
+Otel odalarının, müşteri bilgilerinin ve rezervasyon işlemlerinin yönetilmesi için geliştirilen bir veritabanı projesi.
+
 📌 Proje Hakkında
 
-Bu proje, otel odalarının yönetilmesini ve müşterilerin kolayca rezervasyon yapabilmesini sağlamak amacıyla geliştirilmiş bir Otel Rezervasyon Sistemi uygulamasıdır. Sistem üzerinden oda bilgileri, müşteri bilgileri ve rezervasyon işlemleri yönetilebilir.
-
-Projenin temel amacı, otel rezervasyon süreçlerini dijital ortama taşıyarak daha hızlı, düzenli ve verimli bir yönetim sağlamaktır.
+Bu projenin amacı, otel rezervasyon süreçlerini dijital ortama taşıyarak oda ve müşteri bilgilerinin düzenli bir şekilde yönetilmesini sağlamaktır.
 
 🎯 Projenin Amaçları
-Otel odalarının kayıtlarını tutmak
-Müşteri bilgilerini yönetmek
+Oda kayıtlarını yönetmek
+Müşteri bilgilerini saklamak
 Rezervasyon oluşturmak ve takip etmek
 Oda müsaitlik durumlarını kontrol etmek
-Rezervasyon bilgilerini veritabanında saklamak
-Veritabanı yönetimi ve ilişkisel veri yapıları üzerinde uygulama geliştirmek
+Veritabanı ilişkilerini uygulamalı olarak geliştirmek
 ⚙️ Temel Özellikler
-Oda Yönetimi: Oda bilgilerini ekleme, listeleme, güncelleme ve silme
-Müşteri Yönetimi: Müşteri kayıtlarını yönetme
-Rezervasyon İşlemleri: Rezervasyon oluşturma ve rezervasyon bilgilerini görüntüleme
-Müsaitlik Kontrolü: Belirli tarihlerde uygun odaları kontrol etme
-Veritabanı Yönetimi: Müşteri, oda ve rezervasyon verilerini saklama
+Özellik	Açıklama
+🛏️ Oda Yönetimi	Oda bilgilerini ekleme, listeleme ve güncelleme
+👤 Müşteri Yönetimi	Müşteri kayıtlarını saklama ve yönetme
+📅 Rezervasyon	Rezervasyon bilgilerini oluşturma ve görüntüleme
+🔎 Müsaitlik Kontrolü	Uygun odaları ve tarihleri kontrol etme
+🗄️ Veritabanı	Bilgileri ilişkili tablolarda saklama
 🗄️ Veritabanı Yapısı
+1. Musteriler
 
-Projede aşağıdaki temel tablolar kullanılabilir:
+Müşterilerin kimlik, ad, soyad, telefon ve e-posta bilgilerini tutar.
 
-Musteriler: Müşteri kimliği, ad, soyad, telefon ve e-posta bilgileri
-Odalar: Oda kimliği, oda numarası, oda tipi, kapasite ve fiyat bilgileri
-Rezervasyonlar: Rezervasyon kimliği, müşteri kimliği, oda kimliği, giriş tarihi, çıkış tarihi ve rezervasyon durumu
+2. Odalar
 
-Bu tablolar arasında ilişkiler kurularak verilerin tutarlı ve düzenli bir şekilde saklanması hedeflenmektedir.
+Oda numarası, oda tipi, kapasite ve fiyat bilgilerini tutar.
 
-📚 Proje Kapsamı
+3. Rezervasyonlar
 
-Bu proje, veritabanı tasarımı, tablolar arası ilişkiler, veri ekleme, silme, güncelleme ve sorgulama işlemlerini uygulamalı olarak geliştirmek amacıyla hazırlanmıştır.
+Müşteri ve oda bilgileriyle birlikte giriş tarihi, çıkış tarihi ve rezervasyon durumunu tutar.
 
+Bu tablolar arasındaki ilişkiler sayesinde verilerin tutarlı bir şekilde yönetilmesi hedeflenir.
+
+🛠️ Kullanılan Teknolojiler
+Veritabanı: Projede kullanılan veritabanı sistemi
+Programlama Dili: Projede kullanılan dil
+Sürüm Kontrolü: Git ve GitHub
+🚀 Kurulum
+Repoyu bilgisayarınıza indirin veya klonlayın.
+Gerekli veritabanını oluşturun.
+Veritabanı bağlantı ayarlarını yapılandırın.
+Projeyi kullandığınız geliştirme ortamında açın ve çalıştırın.
 👨‍💻 Geliştirici
 
-Yusuf Ergin
-Mustafa Üçüncü
+Yusuf Ergin Mustafa Üçüncü
 
-📄 Lisans
-
-Bu proje eğitim ve öğrenme amaçlı geliştirilmiştir.
+📚 Bu proje, veritabanı tasarımı ve yönetimi konularında uygulamalı çalışma amacıyla hazırlanmıştır.

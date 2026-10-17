@@ -35,8 +35,8 @@ Müşteri ve oda bilgileriyle birlikte giriş tarihi, çıkış tarihi ve rezerv
 Bu tablolar arasındaki ilişkiler sayesinde verilerin tutarlı bir şekilde yönetilmesi hedeflenir.
 
 🛠️ Kullanılan Teknolojiler
-Veritabanı: Projede kullanılan veritabanı sistemi
-Programlama Dili: Projede kullanılan dil
+Veritabanı: MySQL
+Programlama Dili: Spring Boot
 Sürüm Kontrolü: Git ve GitHub
 🚀 Kurulum
 Repoyu bilgisayarınıza indirin veya klonlayın.

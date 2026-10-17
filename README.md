@@ -45,6 +45,7 @@ Veritabanı bağlantı ayarlarını yapılandırın.
 Projeyi kullandığınız geliştirme ortamında açın ve çalıştırın.
 👨‍💻 Geliştirici
 
-Yusuf Ergin Mustafa Üçüncü
+Yusuf Ergin 455083
+Mustafa Üçüncü 43188
 
 📚 Bu proje, veritabanı tasarımı ve yönetimi konularında uygulamalı çalışma amacıyla hazırlanmıştır.
